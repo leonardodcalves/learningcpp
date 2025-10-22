@@ -1,0 +1,43 @@
+#include <iostream>
+int main() {
+    std::cout << "L     D  D   CCC    A  \n";
+    std::cout << "L     D   D C   C  A A \n";
+    std::cout << "L     D   D C     A   A\n";
+    std::cout << "L     D   D C     AAAAA\n";
+    std::cout << "L     D   D C     A   A\n";
+    std::cout << "L     D   D C     A   A\n";
+    std::cout << "LLLLL DDDD   CCC  A   A\n";
+    std::cout << "\n";
+    std::cout << "L\n";
+    std::cout << "L\n";
+    std::cout << "L\n";
+    std::cout << "L\n";
+    std::cout << "L\n";
+    std::cout << "L\n";
+    std::cout << "LLLLL\n";
+    std::cout <<"\n";
+    std::cout << "DDDD\n";
+    std::cout << "D   D\n";
+    std::cout << "D   D\n";
+    std::cout << "D   D\n";
+    std::cout << "D   D\n";
+    std::cout << "D   D\n";
+    std::cout << "DDDD\n";
+    std::cout << "\n";
+    std::cout << " CCC \n";
+    std::cout << "C   C\n";
+    std::cout << "C\n";
+    std::cout << "C\n";
+    std::cout << "C\n";
+    std::cout << "C   C\n";
+    std::cout << " CCC \n";
+    std::cout << "\n";
+    std::cout << "  A  \n";
+    std::cout << " A A\n";
+    std::cout << "A   A\n";
+    std::cout << "AAAAA\n";
+    std::cout << "A   A\n";
+    std::cout << "A   A\n";
+    std::cout << "A   A\n";
+    return 0;
+}
