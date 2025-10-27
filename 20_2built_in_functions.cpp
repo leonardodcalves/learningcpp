@@ -1,3 +1,11 @@
+#include <iostream>
+
+int main() {
+    srand (time(NULL));
+    int the_amazing_random_number = rand() % 29;
+    std::cout << the_amazing_random_number << "\n";
+}
+
 /*
 
 Functions
@@ -39,11 +47,3 @@ Assign the resulting value to a new int variable called the_amazing_random_numbe
 Print the_amazing_random_number to the terminal.
 
 */
-
-#include <iostream>
-
-int main() {
-    srand (time(NULL));
-    int the_amazing_random_number = rand() % 29;
-    std::cout << the_amazing_random_number << "\n";
-}

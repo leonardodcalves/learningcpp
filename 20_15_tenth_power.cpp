@@ -1,3 +1,14 @@
+#include <iostream>
+#include <cmath>
+
+int tenth_power(int num) {
+    return pow(num, 10);
+}
+
+int main() {
+    std::cout << tenth_power(2) << "\n" << tenth_power(3) << "\n" << tenth_power(4) << "\n";
+}
+
 /*
 
 Code Challenge: C++ Functions
@@ -27,14 +38,3 @@ int main() {
 } 
 
 */
-
-#include <iostream>
-#include <cmath>
-
-int tenth_power(int num) {
-    return pow(num, 10);
-}
-
-int main() {
-    std::cout << tenth_power(2) << "\n" << tenth_power(3) << "\n" << tenth_power(4) << "\n";
-}

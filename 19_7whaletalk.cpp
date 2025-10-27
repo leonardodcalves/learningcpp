@@ -1,3 +1,25 @@
+#include <iostream>
+#include <vector>
+#include <string>
+
+int main() {
+    std::string normphrases = "are you a whale too?";
+    std::vector<char> vowels = {'a', 'e', 'i', 'o', 'u'};
+    std::vector<char> result;
+    for (int i = 0; i < normphrases.size(); i++) {
+        for (int j = 0; j < vowels.size(); j++) {
+            if (normphrases[i] == vowels [j]) {
+                result.push_back(normphrases[i]);
+        } if (normphrases[i] == 'u' || normphrases[i] == 'e') {
+            result.push_back(normphrases[i]);
+        }
+    }
+    for (int k = 0; k < result.size(); k++) {
+        std::cout << result[k];
+    }
+    std::cout << "\n";
+}
+
 /*
 
 Learn C++
@@ -123,25 +145,3 @@ Sample solution(s):
 whale.cpp
 
 */
-
-#include <iostream>
-#include <vector>
-#include <string>
-
-int main() {
-    std::string normphrases = "are you a whale too?";
-    std::vector<char> vowels = {'a', 'e', 'i', 'o', 'u'};
-    std::vector<char> result;
-    for (int i = 0; i < normphrases.size(); i++) {
-        for (int j = 0; j < vowels.size(); j++) {
-            if (normphrases[i] == vowels [j]) {
-                result.push_back(normphrases[i]);
-        } if (normphrases[i] == 'u' || normphrases[i] == 'e') {
-            result.push_back(normphrases[i]);
-        }
-    }
-    for (int k = 0; k < result.size(); k++) {
-        std::cout << result[k];
-    }
-    std::cout << "\n";
-}

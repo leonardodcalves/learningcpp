@@ -1,3 +1,16 @@
+#include <iostream>
+#include <vector>
+#include <string>
+
+int main() {
+    std::vector<std::string> grocery = {"Hot Pepper Jam", "Dragon Fruit", "Brussel Sprouts"};
+    grocery.push_back("Sujama");
+    grocery.push_back("Sweetrool");
+    grocery.push_back("Moon Sugar");
+    grocery.push_back("Nirnroot");
+    std::cout << grocery.size() << "\n";
+}
+
 /*/
 
 Vectors
@@ -44,16 +57,3 @@ Print the size of grocery using .size().
 Is it the same as you expected?
 
 */
-
-#include <iostream>
-#include <vector>
-#include <string>
-
-int main() {
-    std::vector<std::string> grocery = {"Hot Pepper Jam", "Dragon Fruit", "Brussel Sprouts"};
-    grocery.push_back("Sujama");
-    grocery.push_back("Sweetrool");
-    grocery.push_back("Moon Sugar");
-    grocery.push_back("Nirnroot");
-    std::cout << grocery.size() << "\n";
-}

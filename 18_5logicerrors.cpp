@@ -1,3 +1,20 @@
+#include <iostream>
+
+int main() {
+  
+  // Output from 1 to steps:
+  
+  int steps = 10;
+  
+  for (int i = 0; i <= steps; i++) {
+    
+    std::cout << "Step #";
+    std::cout << i << "\n";
+    
+  }
+  
+}
+
 /*
 Errors
 Logic Errors
@@ -33,20 +50,3 @@ from 0…
 
 Find the logic error.
 */
-
-#include <iostream>
-
-int main() {
-  
-  // Output from 1 to steps:
-  
-  int steps = 10;
-  
-  for (int i = 0; i <= steps; i++) {
-    
-    std::cout << "Step #";
-    std::cout << i << "\n";
-    
-  }
-  
-}

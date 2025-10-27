@@ -1,3 +1,12 @@
+#include <iostream>
+#include <vector>
+
+int main() {
+    std::vector<double> subway_adult = {800, 1200, 1500};
+    std::vector<double> subway_child = {400, 600, 750};
+    std::cout << subway_child[2] << "\n";
+}
+
 /*/
 
 Vectors
@@ -176,12 +185,3 @@ What is the element at index 2 in the subway_child vector?
 Find out the answer by outputting it out using std::cout.
 
 */
-
-#include <iostream>
-#include <vector>
-
-int main() {
-    std::vector<double> subway_adult = {800, 1200, 1500};
-    std::vector<double> subway_child = {400, 600, 750};
-    std::cout << subway_child[2] << "\n";
-}

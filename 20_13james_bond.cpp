@@ -1,3 +1,14 @@
+#include <iostream>
+#include <string>
+
+void introduction(std::string first_name, std::string last_name) {
+    std::cout << last_name << ", " << first_name << " " << last_name << "\n";
+}
+
+int main() {
+    introduction("James", "Bond");
+}
+
 /*
 
 Code Challenge: C++ Functions
@@ -22,14 +33,3 @@ Bond, James Bond
 Copy to Clipboard
 
 */
-
-#include <iostream>
-#include <string>
-
-void introduction(std::string first_name, std::string last_name) {
-    std::cout << last_name << ", " << first_name << " " << last_name << "\n";
-}
-
-int main() {
-    introduction("James", "Bond");
-}

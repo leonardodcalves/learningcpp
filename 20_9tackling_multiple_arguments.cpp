@@ -1,3 +1,17 @@
+#include <iostream>
+#include <string>
+
+void name_x_times(std::string name, int x) {
+    while (x > 0) {
+        std::cout << name << "\n";
+        x = x - 1;
+    }
+}
+
+int main() {
+    name_x_times("Leonardo Alves", 10);
+}
+
 /*
 
 Functions
@@ -63,17 +77,3 @@ Now, call name_x_times() in main() with my_name and some_number as arguments.
 (Don’t forget to change my_name to your name!)
 
 */
-
-#include <iostream>
-#include <string>
-
-void name_x_times(std::string name, int x) {
-    while (x > 0) {
-        std::cout << name << "\n";
-        x = x - 1;
-    }
-}
-
-int main() {
-    name_x_times("Leonardo Duarte da Conceição Alves", 10);
-}

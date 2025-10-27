@@ -1,3 +1,21 @@
+#include <iostream>
+#include <string>
+#include <vector>
+
+std::string first_three_multiples(int num) {
+    std::string result;
+    result += std::to_string(num*1);
+    result += ", ";
+    result += std::to_string(num*2);
+    result += ", ";
+    result += std::to_string(num*3);
+    return result;
+}
+
+int main() {
+    std::cout << first_three_multiples(7) << "\n";
+}
+
 /*
 
 Code Challenge: C++ Functions
@@ -16,24 +34,6 @@ The function should return an std::vector of the first three multiples of num in
 For example, first_three_multiples(7) should return a vector with 7, 14, and 21.
 
 */
-
-#include <iostream>
-#include <string>
-#include <vector>
-
-std::string first_three_multiples(int num) {
-    std::string result;
-    result += std::to_string(num*1);
-    result += ", ";
-    result += std::to_string(num*2);
-    result += ", ";
-    result += std::to_string(num*3);
-    return result;
-}
-
-int main() {
-    std::cout << first_three_multiples(7) << "\n";
-}
 
 /*
 

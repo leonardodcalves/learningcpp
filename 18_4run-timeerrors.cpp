@@ -1,3 +1,16 @@
+#include <iostream>
+
+int main() {
+  
+  int width = 20;
+  int length = 0;
+
+  int ratio = (width / length);
+  
+  std::cout << ratio << "\n";
+  
+}
+
 /*
 Errors
 Run-time Errors
@@ -35,16 +48,3 @@ There’s a run-time error in ratio.cpp.
 
 This program is supposed to find the ratio of a table’s dimensions, which is supposed to be 20 x 30.
 */
-
-#include <iostream>
-
-int main() {
-  
-  int width = 20;
-  int length = 0;
-
-  int ratio = (width / length);
-  
-  std::cout << ratio << "\n";
-  
-}

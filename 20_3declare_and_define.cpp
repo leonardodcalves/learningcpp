@@ -1,3 +1,17 @@
+#include <iostream>
+
+void makesandwitch() {
+    std::cout << "\nOne slice of bread!\n";
+    std::cout << "Egg!\n";
+    std::cout << "Cheese! Enough cheese to die for.\n";
+    std::cout << "Ham! Not the Fallout type.\n";
+    std::cout << "Bread again.\n";
+}
+
+int main() {
+    makesandwitch();
+}
+
 /*
 
 Functions
@@ -48,17 +62,3 @@ This is just a preview of how everything works, so don’t worry about memorizin
 next exercise, we’ll start building functions from scratch…
 
 */
-
-#include <iostream>
-
-void makesandwitch() {
-    std::cout << "\nOne slice of bread!\n";
-    std::cout << "Egg!\n";
-    std::cout << "Cheese! Enough cheese to die for.\n";
-    std::cout << "Ham! Not the Fallout type.\n";
-    std::cout << "Bread again.\n";
-}
-
-int main() {
-    makesandwitch();
-}
