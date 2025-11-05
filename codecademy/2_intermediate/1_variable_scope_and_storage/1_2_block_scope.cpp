@@ -1,3 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+        int totalScore = 20;
+        {
+                int totalScore = 10;
+                cout << "Total Score: " << totalScore << "\n";
+        }
+        cout << "Total Score: " << totalScore << "\n";
+        return 0;
+}
+
 /*
 
 Variable Scope and Storage Classes
